@@ -2,6 +2,15 @@
 
 > AI 购物决策助手 — 让你只买对的，不花冤枉钱
 
+<div align="center">
+  <img src="assets/easy-buy-icon.svg" width="120" alt="轻松购图标">
+  <p><i>信息甄别 · 跨平台比价 · 优惠聚合 · 安全推荐</i></p>
+</div>
+
+## 在线体验
+
+📱 **手机端文章**：[https://chen8696.github.io/easybuy-skill/](https://chen8696.github.io/easybuy-skill/)
+
 ## 它解决什么问题？
 
 | 痛点 | 轻松购怎么解决 |
@@ -58,7 +67,12 @@ cp -r easy-buy .workbuddy/skills/
 easy-buy/
 ├── SKILL.md                      # 技能主文档（含 frontmatter 元数据 + 6步工作流）
 ├── README.md                     # 本文件
+├── easy-buy.skill.zip           # 一键安装包（拖入 WorkBuddy 即可安装）
 ├── test-prompts.json             # 测试 prompt 集
+├── assets/
+│   ├── easy-buy-icon.svg        # 技能图标（SVG）
+│   └── easy-buy-cover.png      # 微信公众号封面图
+├── index.html                    # 公众号文章在线版（部署于 GitHub Pages）
 └── references/
     ├── trusted_sources.md        # 信息源甄别与交叉验证指南（Tier 分级、软文识别、验证策略）
     └── shopping_guide.md         # 选购与溢价识别指南（成本分析、品类选购、优惠聚合）
@@ -84,6 +98,10 @@ easy-buy/
 ### v1.0.0
 
 - 初始版本：6 步工作流 + 信息源甄别 + 跨平台比价 + 优惠聚合
+
+## 安装包
+
+下载 [`easy-buy.skill.zip`](easy-buy.skill.zip)，拖入 WorkBuddy 聊天窗口即可一键安装。
 
 ## License
 
